@@ -2,6 +2,9 @@
 
 setlocal
 
+REM 设置命令行编码为UTF-8
+chcp 936 > nul
+
 REM 获取批处理文件所在目录作为Git仓库路径
 set GIT_REPO_PATH=%~dp0
 
